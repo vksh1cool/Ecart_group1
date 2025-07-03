@@ -1,0 +1,25 @@
+CREATE TABLE Users(
+    userId VARCHAR(20) PRIMARY KEY,
+    customerName VARCHAR(50),
+    email VARCHAR(100),
+    phone VARCHAR(15),
+    address VARCHAR(255),
+    password VARCHAR(50),
+    role CHAR(1)
+);
+
+
+
+CREATE TABLE orders(
+    orderId VARCHAR(30),
+    userId VARCHAR(30),
+    orderedItem VARCHAR(30),
+    orderedDate VARCHAR(30),
+    arrivingDate VARCHAR(30),
+    deliveredDate VARCHAR(30),
+    cancelledDate VARCHAR(30),
+    address VARCHAR(30),
+    status VARCHAR(30)
+);
+
+INSERT INTO orders values ('OID-34198','UID-37430', 'Laptop', '2024-10-20', '2024-10-22', null, null, 'A Block, Pater Nagar', 'Confirmed');

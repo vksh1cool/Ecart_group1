@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+select:hover {
+    border-color: rgb(255, 191, 96);
+}
+
+select:focus {
+    outline: none;
+    border-color: rgb(255, 191, 96);
+}
+
+/* Adjusts the display of the select dropdown */
+.container {
+    align-items: center; /* Aligns dropdown with other elements in the container */
+}
+
+/* Style for the option elements */
+select option {
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Update Button in Table */
+.update-btn {
+    background-color: rgb(255, 191, 96);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.update-btn:hover {
+    background-color: #218838;
+}
+
+
